@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+}
+
+#boat {
+  background-image: url('../images/boat.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+#hero-overlay {
+  position: absolute;
+  background-color: : rgba(0,0,0,0.5);
+  top: 0
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+.top-header {
+  width: 100%;
+  max-width:960px;
+  font: 4em "Amatic SC";
+  color: #f0f0f0;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+  position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+}
+
+#text {
+  text-align: center;
+  vertical-align: middle;
+  margin:125px 10px 10px 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color:#333333;
+  display:block;
+}
